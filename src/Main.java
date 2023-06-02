@@ -13,8 +13,7 @@ public class Main {
                 .uri(URI.create("https://raw.githubusercontent.com/yank5/requestip/main/README.md"))
                 .build();
         var c=client.send(request, HttpResponse.BodyHandlers.ofString()).body();
-        System.out.println(c);
-
+        //System.out.println(c);
         //System.out.println(c.complete());
     }
 }
